@@ -28,7 +28,7 @@ function App() {
     const product = productList.find(p => p.id === pid)
     const q = quantityRef.current.value
     // console.log(pid, q)
-    // console.table(product)
+    // console.table(product))
 
     selectedItem.push({
       id: pid,
