@@ -6,6 +6,8 @@ import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import DataTable from './components/DataTable';
 import productList from './product-list.json';
+import AppNavbar from './components/Navbar';  // Import the Navbar
+
 
 function App() {
   const productRef = useRef();
@@ -61,6 +63,7 @@ function App() {
 
   return (
     <Container>
+      <AppNavbar />
       <Row>
         <Col xs={6}>
           <Form.Label htmlFor="inputProductName">Product Name</Form.Label>
