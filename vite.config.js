@@ -4,5 +4,5 @@ import react from '@vitejs/plugin-react'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: '/routing-app/',
+  base: '/accessory-shop/routing-app/',  // Set the base URL here
 })

@@ -7,12 +7,11 @@ import About from './About.jsx';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <Router>
+    <Router basename="/accessory-shop/routing-app">
       <Routes>
         <Route path="/" element={<App />} />
-        <Route path="/routing-app" element={<App />} />
-        <Route path="/routing-app/about" element={<About />} />
+        <Route path="/about" element={<About />} />
       </Routes>
     </Router>
   </React.StrictMode>,
-)
+);
