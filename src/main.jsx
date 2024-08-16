@@ -9,9 +9,9 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <Router>
       <Routes>
-        <Route path="/" element={<App />} />
-        <Route path="/routing-app" element={<App />} />
-        <Route path="/routing-app/about" element={<About />} />
+        <Route path="/accessory-shop" element={<App />} />
+        <Route path="/accessory-shop/routing-app" element={<App />} />
+        <Route path="/accessory-shop/routing-app/about" element={<About />} />
       </Routes>
     </Router>
   </React.StrictMode>,
